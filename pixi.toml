@@ -1,0 +1,13 @@
+[project]
+authors = ["Steve Harris <git@steveharris.me>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "cipher1"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ipython = ">=8.28.0,<9"
+streamlit = ">=1.39.0,<2"
